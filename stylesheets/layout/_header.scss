@@ -1,6 +1,67 @@
 a {
     text-decoration: none;
+    color: #fff;
 }
-.nav{
-    background-color: $color-primary;
+
+.navbar-logo {
+    width: 80px;
+    margin:12px 0;
+    @media (max-width: 768px) {
+      margin: 0 0 16px 16px;
+    }
+  }
+  .navbar {
+    padding: 16px 0;
+    background-color:$color-primary;
+    @media (max-width: 768px) {
+      padding-bottom: 0;
+    }
+  }
+
+.navbar-wrap{
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        /* 移除左右 padding 再加入 max-width: 100%; 讓導覽列能變為滿版 */
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+      }
 }
+
+.navbar-nav{
+    display: flex;
+    
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+      }
+}
+
+.navbar-item{
+    height:100%;
+   
+    @media(max-width:768px){
+        width: 50%;
+        margin-right: 0px;
+        border: 1px solid #ffffff;
+    }
+}
+
+.navbar-link {
+    height: 100%;
+    display: block;
+    font-size: $fs-m;
+    color: #ffffff;
+    padding: 25px 32px;
+    
+    @media (max-width: 768px) {
+      font-size: $fs-xm;
+      text-align: center;
+      padding: 12px 0;
+    }
+  }
+
+  .navbar-link:hover {
+    opacity: 0.7;
+  }

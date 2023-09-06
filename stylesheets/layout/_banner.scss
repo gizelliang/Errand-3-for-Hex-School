@@ -1,0 +1,55 @@
+.banner{
+    background-image: url(/images/home-header.png);
+    background-size:cover;
+    
+    height: 100vh;
+    @media (max-width: 768px) {
+        background-image: url(/images/home-header-sm.png);
+      }
+}
+
+.banner-text{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 296px;
+    align-items: flex-end;
+    color:$color-text;
+    h2{
+        font-size: $fs-xl;
+        font-weight: 400;
+    }
+
+    p{
+        font-weight: 700;
+        font-size: $fs-xxl;
+    }
+    button{
+        background-color: $color-primary;
+        color: #fff;
+        padding: 6px 12px;
+        border: none;
+        font-size:$fs-m;
+    }
+    @media (max-width:768px) {
+        flex-wrap: nowrap;
+        .col-sm-10{
+            width:83.33%;
+        }
+    }
+    @media (max-width:375px) {
+        flex-wrap: nowrap;
+        padding-top: 144px;
+        .col-xs-12{
+            width:100%;
+        }
+        h2{
+            font-size: $fs-xm; 
+        }
+
+        p{
+            font-size:24px;
+        }
+        
+    }
+}
