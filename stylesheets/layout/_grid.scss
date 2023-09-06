@@ -5,6 +5,14 @@
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 12px;
+    /*平板*/
+@media (max-width: 768px) {
+max-width: 720px;
+}
+/*手機 */
+@media (max-width: 375px) {
+max-width: 372px;
+}
   }
 .px-3 {
     padding-left: 12px;
