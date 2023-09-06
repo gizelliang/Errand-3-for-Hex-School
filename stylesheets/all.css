@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,6 +54,12 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: "Noto Sans TC", "Roboto", sans-serif;
+  line-height: 63%;
+  font-size: 24px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -63,16 +70,22 @@ img {
   vertical-align: middle;
 }
 
-body {
-  font-family: "Noto Sans TC", "Roboto", sans-serif;
-  line-height: 63%;
-  font-size: 24px;
-}
-
 .container {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 12px;
+  /*平板*/
+  /*手機 */
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 372px;
+  }
 }
 
 .px-3 {
@@ -132,4 +145,12 @@ body {
 
 .col-12 {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #aa0601;
 }/*# sourceMappingURL=all.css.map */
