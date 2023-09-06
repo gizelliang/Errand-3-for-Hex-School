@@ -55,7 +55,8 @@ table {
 }
 
 body {
-  font-family: "Noto Sans TC", "Roboto", sans-serif;
+  font-family: "PingFang TC", "Noto Sans TC", "Roboto", sans-serif;
+  font-weight: 400;
   line-height: 1.5;
   font-size: 24px;
 }
@@ -145,6 +146,26 @@ img {
 
 .col-12 {
   width: 100%;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
 }
 
 a {
@@ -250,7 +271,6 @@ a {
 }
 .banner-text h2 {
   font-size: 36px;
-  font-weight: 400;
 }
 .banner-text p {
   font-weight: 700;
@@ -285,4 +305,44 @@ a {
   .banner-text p {
     font-size: 24px;
   }
+}
+
+.feature {
+  background-color: #FBF2F2;
+  text-align: center;
+  color: #650300;
+}
+.feature h2 {
+  font-size: 48px;
+  padding-top: 80px;
+}
+.feature p {
+  font-size: 16px;
+  color: black;
+  text-align: start;
+  padding-bottom: 80px;
+}
+
+.feature-list {
+  flex-wrap: nowrap;
+  padding-top: 37px;
+}
+@media (max-width: 768px) {
+  .feature-list {
+    flex-wrap: wrap;
+  }
+}
+
+.feature-item {
+  width: 25%;
+}
+@media (max-width: 768px) {
+  .feature-item {
+    width: 50%;
+  }
+}
+
+.feature-image {
+  width: 80px;
+  height: auto;
 }/*# sourceMappingURL=all.css.map */

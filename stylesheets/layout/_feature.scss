@@ -1,0 +1,35 @@
+.feature{
+    background-color: $color-features-background;
+    text-align: center;
+    color:$color-text;
+    h2{
+        font-size:$fs-xml;
+        padding-top:80px;
+    }
+    p{
+        font-size:$fs-xm;
+        color:black;
+        text-align: start;
+        padding-bottom: 80px;
+    }
+}
+
+.feature-list{
+    flex-wrap:nowrap;
+    padding-top: 37px;
+    @media (max-width:768px) {
+        flex-wrap: wrap;
+      }
+}
+
+.feature-item{
+    width:25%;
+    @media (max-width:768px) {
+      width:50%;
+    }
+}
+
+.feature-image{
+    width:80px;
+    height:auto;
+}
