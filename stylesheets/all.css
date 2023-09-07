@@ -364,4 +364,24 @@ a {
   font-family: "Roboto";
   padding-top: 8px;
   padding-bottom: 80px;
+}
+
+.design {
+  background-image: url(/images/index-bg.png);
+  text-align: center;
+  font-size: 48px;
+}
+.design h2 {
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 48px;
+  font-weight: 700;
+}
+.design h3 {
+  background-color: #fff;
+  color: #aa0601;
+  font-style: italic;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-bottom: 80px;
 }/*# sourceMappingURL=all.css.map */
