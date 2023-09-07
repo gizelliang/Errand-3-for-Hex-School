@@ -3,7 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+TC:wght@700&family=Roboto:ital,wght@0,500;0,700;1,700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -345,4 +345,23 @@ a {
 .feature-image {
   width: 80px;
   height: auto;
+}
+
+.product {
+  text-align: center;
+  color: #650300;
+}
+.product h2 {
+  font-weight: bold;
+  font-size: 48px;
+  padding-bottom: 48px;
+  padding-top: 80px;
+}
+.product h3 {
+  font-size: 48px;
+  color: #aa0601;
+  font-style: italic;
+  font-family: "Roboto";
+  padding-top: 8px;
+  padding-bottom: 80px;
 }/*# sourceMappingURL=all.css.map */

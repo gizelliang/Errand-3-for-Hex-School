@@ -1,0 +1,19 @@
+.product{
+    text-align: center;
+    color:$color-text;
+    h2{
+        font-weight:bold;
+        font-size:$fs-xml;
+        padding-bottom: 48px;
+        padding-top: 80px;
+    }
+    h3{
+        font-size:$fs-xml;
+        color: $color-primary;
+        font-style: italic;
+        font-family: 'Roboto';
+        padding-top: 8px;
+        padding-bottom: 80px;
+    }
+
+}
