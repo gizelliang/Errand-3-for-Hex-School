@@ -61,14 +61,47 @@ max-width: 372px;
     width: 100%;
   }
 
+//padding & margin
 .mr-6{
   margin-right: 24px;
 }
 
+.mb-2{
+  margin-bottom: 8px;
+}
+
+.mb-4{
+  margin-bottom: 16px;
+}
+
+.px-4{
+  padding-left:16px;
+  padding-right:16px;
+}
+
+.pb-12{
+  padding-bottom: 48px;
+}
+.pt-12{
+  padding-top: 48px;
+}
+
+.pt-20{
+  padding-top: 80px;
+}
+
+.pb-20{
+  padding-bottom: 80px;
+}
+
+//flex
+
 .flex{
   display: flex;
 }
-
+.justify-between{
+  justify-content: space-between;
+}
 .h-center{
   justify-content: center;
 }
