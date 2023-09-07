@@ -2,15 +2,21 @@
     background-color: $color-features-background;
     text-align: center;
     color:$color-text;
+    font-family: 'Noto Sans TC';
     h2{
         font-size:$fs-xml;
-        padding-top:80px;
+        font-weight: bold;
+        //padding-top:80px;
+    }
+
+    h3{
+        font-weight: bold;
     }
     p{
         font-size:$fs-xm;
         color:black;
         text-align: start;
-        padding-bottom: 80px;
+        //padding-bottom: 80px;
     }
 }
 
