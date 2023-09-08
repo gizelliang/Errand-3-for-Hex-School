@@ -34,16 +34,12 @@
     }
     @media (max-width:768px) {
         flex-wrap: nowrap;
-        .col-sm-10{
-            width:83.33%;
-        }
+       
     }
     @media (max-width:375px) {
         flex-wrap: nowrap;
         padding-top: 144px;
-        .col-xs-12{
-            width:100%;
-        }
+        
         h2{
             font-size: $fs-xm; 
         }

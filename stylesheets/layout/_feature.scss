@@ -21,21 +21,15 @@
 }
 
 .feature-list{
-    flex-wrap:nowrap;
     padding-top: 37px;
     @media (max-width:768px) {
-        flex-wrap: wrap;
-      }
-}
-
-.feature-item{
-    width:25%;
-    @media (max-width:768px) {
-      width:50%;
+        
     }
 }
 
+
 .feature-image{
-    width:80px;
+    max-width:80px;
     height:auto;
 }
+

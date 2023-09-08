@@ -173,6 +173,11 @@ img {
   padding-right: 16px;
 }
 
+.mx-3 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
 .pb-12 {
   padding-bottom: 48px;
 }
@@ -187,6 +192,10 @@ img {
 
 .pb-20 {
   padding-bottom: 80px;
+}
+
+.pr-6 {
+  padding-right: 24px;
 }
 
 .mb-20 {
@@ -209,10 +218,36 @@ img {
   flex-wrap: wrap;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .column {
   flex-direction: column;
 }
 
+.align-center {
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .mb-md-6 {
+    margin-bottom: 24px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .px-md-9 {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .flex-md-wrap {
+    flex-wrap: wrap;
+  }
+}
 a {
   text-decoration: none;
   color: #fff;
@@ -335,17 +370,11 @@ a {
   .banner-text {
     flex-wrap: nowrap;
   }
-  .banner-text .col-sm-10 {
-    width: 83.33%;
-  }
 }
 @media (max-width: 375px) {
   .banner-text {
     flex-wrap: nowrap;
     padding-top: 144px;
-  }
-  .banner-text .col-xs-12 {
-    width: 100%;
   }
   .banner-text h2 {
     font-size: 16px;
@@ -375,26 +404,10 @@ a {
 }
 
 .feature-list {
-  flex-wrap: nowrap;
   padding-top: 37px;
 }
-@media (max-width: 768px) {
-  .feature-list {
-    flex-wrap: wrap;
-  }
-}
-
-.feature-item {
-  width: 25%;
-}
-@media (max-width: 768px) {
-  .feature-item {
-    width: 50%;
-  }
-}
-
 .feature-image {
-  width: 80px;
+  max-width: 80px;
   height: auto;
 }
 
@@ -413,6 +426,21 @@ a {
   font-family: "Roboto";
 }
 
+.product-item {
+  height: 496px;
+}
+.product-item img {
+  height: 416px;
+}
+
+@media (max-width: 768px) {
+  .product-item {
+    height: 416px;
+  }
+  .product-item img {
+    height: 336px;
+  }
+}
 .design {
   background-image: url(/images/index-bg.png);
   text-align: center;
@@ -430,6 +458,11 @@ a {
   font-family: "Roboto";
 }
 
+@media (max-width: 768px) {
+  .design {
+    background-image: url(/images/index-bg-md.png);
+  }
+}
 .customer {
   font-weight: lighter;
   text-align: center;
@@ -450,6 +483,7 @@ a {
 }
 
 .customer-card {
+  width: 336px;
   height: 511px;
   text-align: left;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);

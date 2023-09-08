@@ -17,3 +17,20 @@
     }
 
 }
+
+.product-item{
+    height:496px;
+    img{
+        height:416px;
+    }
+}
+
+@media (max-width: 768px) {
+      .product-item{
+        height:416px;
+        img{
+            height:336px;
+        }
+    }
+    
+  }
