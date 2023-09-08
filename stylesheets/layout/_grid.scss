@@ -112,6 +112,9 @@ max-width: 372px;
   margin-bottom: 80px;
 }
 
+.mx-auto{
+  margin: 0 auto;
+}
 //flex
 
 .flex{
@@ -147,6 +150,9 @@ max-width: 372px;
 .col-md-6{
   width:50%;
 }
+.col-md-10{
+  width:83.33%;
+}
 .col-md-12 {
   width: 100%;
 } 
@@ -158,4 +164,10 @@ max-width: 372px;
 .flex-md-wrap{
 flex-wrap: wrap;
 }
+}
+
+@media(max-width:375px){
+  .col-sm-12{
+    width:100%;
+  }
 }

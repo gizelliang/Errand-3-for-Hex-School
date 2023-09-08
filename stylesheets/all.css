@@ -202,6 +202,10 @@ img {
   margin-bottom: 80px;
 }
 
+.mx-auto {
+  margin: 0 auto;
+}
+
 .flex {
   display: flex;
 }
@@ -237,6 +241,9 @@ img {
   .col-md-6 {
     width: 50%;
   }
+  .col-md-10 {
+    width: 83.33%;
+  }
   .col-md-12 {
     width: 100%;
   }
@@ -246,6 +253,11 @@ img {
   }
   .flex-md-wrap {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 375px) {
+  .col-sm-12 {
+    width: 100%;
   }
 }
 a {
@@ -406,6 +418,7 @@ a {
 .feature-list {
   padding-top: 37px;
 }
+
 .feature-image {
   max-width: 80px;
   height: auto;
@@ -494,4 +507,8 @@ a {
 .date {
   color: #707070;
   font-size: 14px;
+}
+
+.contact-form {
+  background-color: #FBF2F2;
 }/*# sourceMappingURL=all.css.map */
