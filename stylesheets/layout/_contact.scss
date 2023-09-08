@@ -1,7 +1,19 @@
 .contact-form{
     background-color:$color-features-background;
+    text-align: center;
 }
 
 .title{
-    
+    color:$color-text;
+    font-size: $fs-xml;
+}
+
+.contact-content{
+    font-size:$fs-m;
+    text-align: left;
+    font-weight: 400;
+}
+
+form{
+    text-align: left;
 }

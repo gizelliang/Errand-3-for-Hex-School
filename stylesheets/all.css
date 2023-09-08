@@ -160,6 +160,10 @@ img {
   margin-bottom: 16px;
 }
 
+.mb-6 {
+  margin-bottom: 24px;
+}
+
 .pt-2 {
   padding-top: 8px;
 }
@@ -439,13 +443,6 @@ a {
   font-family: "Roboto";
 }
 
-.product-item {
-  height: 496px;
-}
-.product-item img {
-  height: 416px;
-}
-
 @media (max-width: 768px) {
   .product-item {
     height: 416px;
@@ -511,4 +508,20 @@ a {
 
 .contact-form {
   background-color: #FBF2F2;
+  text-align: center;
+}
+
+.title {
+  color: #650300;
+  font-size: 48px;
+}
+
+.contact-content {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+}
+
+form {
+  text-align: left;
 }/*# sourceMappingURL=all.css.map */
