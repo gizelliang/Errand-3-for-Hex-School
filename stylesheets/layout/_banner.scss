@@ -18,11 +18,13 @@
     h2{
         font-size: $fs-xl;
         font-weight:lighter;
+        margin-left: auto;
     }
 
     p{
         font-weight: bold;
         font-size: $fs-xxl;
+        margin-left: auto;
     }
     button{
         background-color: $color-primary;
@@ -40,11 +42,11 @@
         flex-wrap: nowrap;
         padding-top: 144px;
         
-        h2{
+        .banner-title{
             font-size: $fs-xm; 
         }
 
-        p{
+        .banner-slogan{
             font-size:24px;
         }
         

@@ -206,6 +206,10 @@ img {
   margin-bottom: 80px;
 }
 
+.g-6 {
+  margin-right: 24px;
+}
+
 .mx-auto {
   margin: 0 auto;
 }
@@ -369,10 +373,12 @@ a {
 .banner-text h2 {
   font-size: 36px;
   font-weight: lighter;
+  margin-left: auto;
 }
 .banner-text p {
   font-weight: bold;
   font-size: 64px;
+  margin-left: auto;
 }
 .banner-text button {
   background-color: #aa0601;
@@ -392,10 +398,10 @@ a {
     flex-wrap: nowrap;
     padding-top: 144px;
   }
-  .banner-text h2 {
+  .banner-text .banner-title {
     font-size: 16px;
   }
-  .banner-text p {
+  .banner-text .banner-slogan {
     font-size: 24px;
   }
 }
@@ -514,6 +520,12 @@ a {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
   border: 1px solid #DEE2E6;
   border-radius: 4px;
+  margin-right: 24px;
+}
+@media (max-width: 768px) {
+  .customer-card {
+    margin-right: auto;
+  }
 }
 
 .date {
