@@ -443,12 +443,27 @@ a {
   font-family: "Roboto";
 }
 
+.product-item {
+  height: 496px;
+}
+.product-item img {
+  height: 416px;
+}
+
 @media (max-width: 768px) {
   .product-item {
     height: 416px;
   }
   .product-item img {
     height: 336px;
+  }
+}
+@media (max-width: 375px) {
+  .product-item {
+    height: 428px;
+  }
+  .product-item img {
+    height: 348px;
   }
 }
 .design {

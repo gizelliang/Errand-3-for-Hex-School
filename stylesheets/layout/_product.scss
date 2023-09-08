@@ -18,6 +18,12 @@
 
 }
 
+.product-item{
+    height:496px;
+    img{
+        height:416px;
+    }
+}
 
 
 @media (max-width: 768px) {
@@ -29,3 +35,13 @@
     }
     
   }
+
+  @media (max-width: 375px) {
+    .product-item{
+      height:428px;
+      img{
+          height:348px;
+      }
+  }
+  
+}
