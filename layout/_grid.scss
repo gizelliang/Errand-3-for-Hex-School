@@ -69,7 +69,9 @@ max-width: 372px;
 .mr-6{
   margin-right: 24px;
 }
-
+.mr-8{
+  margin-right: 32px;
+}
 .mb-2{
   margin-bottom: 8px;
 }
@@ -80,7 +82,9 @@ max-width: 372px;
 .mb-6{
   margin-bottom: 24px;
 }
-
+.mt-9{
+  margin-bottom: 36px;
+}
 .pt-2{
   padding-top: 8px;
 }
@@ -92,19 +96,29 @@ max-width: 372px;
   padding-left:16px;
   padding-right:16px;
 }
+.pt-8{
+  padding-top: 32px;
+}
+.pt-9{
+  padding-top: 36px;
+}
 
 .mx-3{
   margin-left: 12px;
   margin-right: 12px;
 }
-
+.pb-8{
+  padding-bottom: 32px;
+}
 .pb-12{
   padding-bottom: 48px;
 }
 .pt-12{
   padding-top: 48px;
 }
-
+.pt-15{
+  padding-top: 60px;
+}
 .pt-20{
   padding-top: 80px;
 }
@@ -114,6 +128,13 @@ max-width: 372px;
 }
 .pr-6{
   padding-right: 24px;
+}
+
+.pr-8{
+  padding-right: 32px;
+}
+.pr-12{
+  padding-right: 48px;
 }
 
 .mb-12{

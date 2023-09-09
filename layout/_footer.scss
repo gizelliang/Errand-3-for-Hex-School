@@ -1,0 +1,32 @@
+footer{
+    background-color: $color-primary;
+    color: #fff;
+    a{
+        font-size:$fs-xm;
+        &:hover{
+            opacity:0.2;
+        }
+    }
+}
+
+.social-image{
+    width:48px;
+    height:auto;
+}
+
+.tel,.e-mail{
+    font-size:$fs-xl;
+}
+
+.email{
+    padding-bottom:32px;
+    border-bottom:1px solid #fff;
+}
+
+.copyright ul{
+    font-size:$fs-s;
+}
+
+.copyright h3{
+    font-size:$fs-xm;
+}
