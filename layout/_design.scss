@@ -1,5 +1,5 @@
 .design{
-    background-image: url(/images/index-bg.png);
+    background-image: url(./images/index-bg.png);
     text-align: center;
     font-size: $fs-xml;
     h2{
@@ -21,7 +21,15 @@
 @media (max-width: 768px) {
   
       .design{
-        background-image: url(/images/index-bg-md.png);
+        background-image: url(./images/index-bg-md.png);
       }
     
   }
+
+  @media (max-width: 375px) {
+  
+    .design{
+      background-image: url(./images/index-bg-sm.png);
+    }
+  
+}
