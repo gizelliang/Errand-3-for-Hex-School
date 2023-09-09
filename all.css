@@ -148,6 +148,10 @@ img {
   width: 100%;
 }
 
+.d-block {
+  display: block;
+}
+
 .mr-6 {
   margin-right: 24px;
 }
@@ -202,6 +206,10 @@ img {
   padding-right: 24px;
 }
 
+.mb-12 {
+  margin-bottom: 48px;
+}
+
 .mb-20 {
   margin-bottom: 80px;
 }
@@ -212,6 +220,22 @@ img {
 
 .mx-auto {
   margin: 0 auto;
+}
+
+.mt-1 {
+  margin-top: 4px;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .flex {
@@ -551,4 +575,28 @@ a {
 
 form {
   text-align: left;
+  font-size: 16px;
+}
+
+input, textarea {
+  background-color: #FBF2F2;
+}
+
+input {
+  height: 33px;
+}
+
+textarea {
+  height: 136px;
+}
+
+.form-btn {
+  color: #fff;
+  background-color: #aa0601;
+  width: 416px;
+  height: 56px;
+  text-align: center;
+}
+.form-btn:hover {
+  background-color: #650300;
 }/*# sourceMappingURL=all.css.map */

@@ -61,6 +61,10 @@ max-width: 372px;
     width: 100%;
   }
 
+  .d-block{
+    display:block;
+  }
+
 //padding & margin
 .mr-6{
   margin-right: 24px;
@@ -111,6 +115,10 @@ max-width: 372px;
 .pr-6{
   padding-right: 24px;
 }
+
+.mb-12{
+  margin-bottom: 48px;
+}
 .mb-20{
   margin-bottom: 80px;
 }
@@ -120,8 +128,20 @@ max-width: 372px;
 .mx-auto{
   margin: 0 auto;
 }
-//flex
 
+.mt-1{
+  margin-top: 4px;
+}
+//flex
+.align-items-start{
+  align-items: start;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
 .flex{
   display: flex;
 }

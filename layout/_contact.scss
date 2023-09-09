@@ -16,4 +16,30 @@
 
 form{
     text-align: left;
+    font-size: $fs-xm;
+}
+
+input,textarea{
+    background-color:$color-features-background;
+}
+
+input{
+    height:33px;
+   
+}
+
+
+textarea{
+    height:136px;
+}
+
+.form-btn{
+    color:#fff;
+    background-color:$color-primary;
+    width:416px;
+    height:56px;
+    text-align: center;
+    &:hover{
+        background-color:$color-text;
+    }
 }
