@@ -669,4 +669,19 @@ footer a:hover {
 
 .copyright h3 {
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .column-sm {
+    flex-direction: column;
+  }
+  .justify-sm-start {
+    justify-content: start;
+  }
+  .d-sm-none {
+    display: none;
+  }
+  .justify-sm-end {
+    justify-content: flex-end;
+  }
 }/*# sourceMappingURL=all.css.map */
